@@ -35,7 +35,7 @@ class Data extends \Magento\Framework\App\Helper\AbstractHelper
     const XML_PATH_PRODUCT_RESULT_FIELDS = 'custom_autocomplete/autocomplete_main/product_result_fields';
 
     /**
-     * Retrieve search delay
+     * Retrieve search delay [which one inject after a particular time of span  ]
      *
      * @param int|null $storeId
      * @return int
